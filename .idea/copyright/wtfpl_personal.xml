@@ -1,0 +1,6 @@
+<component name="CopyrightManager">
+  <copyright>
+    <option name="notice" value="            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE&#10;                    Version 2, December 2004&#10;&#10;Copyright (c) &amp;#36;originalComment.match(&quot;Copyright \(c\) (\d+)&quot;, 1, &quot;-&quot;, &quot;&amp;#36;today.year&quot;)&amp;#36;today.year.&#10;&#10;&#10; Everyone is permitted to copy and distribute verbatim or modified&#10; copies of this license document, and changing it is allowed as long&#10; as the name is changed.&#10;&#10;            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE&#10;   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION&#10;&#10;  0. You just DO WHAT THE FUCK YOU WANT TO.&#10;" />
+    <option name="myName" value="wtfpl personal" />
+  </copyright>
+</component>
