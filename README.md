@@ -12,15 +12,26 @@ https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 ### A pure Python implementation of Conway's Game of Life.
 #### NO USE OF NUMPY OR ANY OTHER EXTERNAL LIBRARIES ON THE BASE IMPLEMENTATION
 Not optimized for speed or memory usage.
+
 I get it, NumPy is cool, amazing even, but why? This is a toy program, computers are fucking fast, and are always idle, by using NumPy you are basically hidding the most interesting part of the implementation behind the array calculations that it provides.
 
+
 The grid is a 2D array of integers. 0 means dead, 1 means alive.
+
 The grid is initialized with a few live cells.
+
 The grid is printed on the console.
+
 The grid is updated according to the rules of Conway's Game of Life.
+
 The grid is printed to the console again.
+
 The grid is updated again.
+
 The grid is printed to the console again.
+
 The grid is updated again.
+
 The grid is printed to the console again.
+
 I think you get the idea.
