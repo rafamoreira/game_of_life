@@ -25,9 +25,9 @@
 import random
 import time
 
-GRID_SIZE_X: int = 120
-GRID_SIZE_Y: int = 20
-FPS: int = 5
+GRID_SIZE_X: int = 100
+GRID_SIZE_Y: int = 100
+FPS: int = 10
 
 
 def create_grid() -> list[list[int]]:
@@ -81,15 +81,19 @@ def wait_for_next_frame(previous_frame_time: float) -> float:
     return next_frame_time
 
 
-def main() -> None:
+def setup() -> tuple[list[list[int]], list[list[int]]]:
     grid1 = create_grid()
     grid2: list[list[int]] = create_grid()
 
     populate_grid(grid1)
-    current_grid: list[list[int]] = grid1
-    next_grid: list[list[int]] = grid2
+    return grid1, grid2
+
+
+def main() -> None:
+    current_grid, next_grid = setup()
 
     print_grid(current_grid)
+
     frame_time = time.time()
 
     while True:
@@ -103,4 +107,5 @@ def main() -> None:
         frame_time = wait_for_next_frame(frame_time)
 
 
-main()
+if __name__ == '__main__':
+    main()
