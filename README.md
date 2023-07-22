@@ -1,20 +1,22 @@
 # Conway's Game of Life
 https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 
-## Python implementation
-
-### Rules:
+## Rules:
 1. Any live cell with fewer than two live neighbours dies, as if by underpopulation.
 2. Any live cell with two or three live neighbours lives on to the next generation.
 3. Any live cell with more than three live neighbours dies, as if by overpopulation.
 4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
 
-### A pure Python implementation of Conway's Game of Life.
-#### NO USE OF NUMPY OR ANY OTHER EXTERNAL LIBRARIES ON THE BASE IMPLEMENTATION
+## IMPLEMENTATION
+
+### A pure Python implementation of Conway's Game of Life
+
 Not optimized for speed or memory usage.
 
-I get it, NumPy is cool, amazing even, but why? This is a toy program, computers are fucking fast, and are always idle, by using NumPy you are basically hidding the most interesting part of the implementation behind the array calculations that it provides.
-
+I get it, NumPy is cool, amazing even, but why?
+This is a toy program, computers are fucking fast, and are always idle,
+by using NumPy you're basically hiding the most interesting part of the 
+implementation behind the array calculations that it provides.
 
 The grid is a 2D array of integers. 0 means dead, 1 means alive.
 
