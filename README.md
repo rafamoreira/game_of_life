@@ -11,9 +11,9 @@ https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 
 #### A pure Python implementation of Conway's Game of Life.
 Not optimized for speed or memory usage.
-###############################################################
-# NO USE OF NUMPY OR ANY OTHER EXTERNAL LIBRARIES ON THE BASE # 
-###############################################################
+# ###############################################################
+# # NO USE OF NUMPY OR ANY OTHER EXTERNAL LIBRARIES ON THE BASE # 
+# ###############################################################
 Meant as an example of how to use Python to implement a cellular automaton.
 What you see is what you get.
 
