@@ -37,3 +37,7 @@ The grid is updated again.
 The grid is printed to the console again.
 
 I think you get the idea.
+
+Pygame
+======
+There's a simple visual implementation using pygame on `game_of_life_pygame.py`
